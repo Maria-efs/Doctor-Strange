@@ -1,5 +1,5 @@
 :root{
-    --accent-color: #FF0031A;
+    --accent-color: #FF031A
 }
 
 body{
@@ -13,9 +13,4 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
-}
-
-footer{
-    background-color: violet;
-    height: 80px;
 }
