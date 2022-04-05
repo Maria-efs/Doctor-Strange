@@ -82,3 +82,25 @@ main{
 .social-container i{
     font-size: 1.5rem;
 }
+
+@media (max-width:768px){
+    .movie-text{
+        display: none;
+    }
+    .social-container{
+        display: none;
+    }
+    .content-container h1{
+        font-size: 4rem;
+        line-height: 2.5rem;
+    }
+    .content-container{
+        gap: 50px;
+        justify-content: flex-end;
+        padding-bottom: 40px;
+        align-items: center;
+    }
+    .movie-title{
+        font-size: 1.5rem;
+    }
+}
