@@ -37,8 +37,7 @@ header{
     transition: all 1s;
 }
 .links-container a:hover{
-    /*color: lightslategrey;*/
-    color: var(--accent-color);
+    color: red;
 }
 
 body{
@@ -51,4 +50,43 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
+}
+
+.link1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.imgTeaser{
+    position: absolute;
+    width: 600px;
+    height: 388px;
+    left: 29px;
+    top: 457px;
+}
+
+.trailer2{
+    display: flex;
+}
+
+.link2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.img2{
+    position: absolute;
+    width: 632.71px;
+    height: 360.3px;
+    left: 130vh;
+    top: 457px;
 }
