@@ -42,7 +42,8 @@ header{
 
 body{
     height: 100vh;
-    background: url(../Img/background.png);
+    background:linear-gradient(90deg, #000, #000E 18%, #000A 30%, #0000),
+                url(../Img/teaser.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,43 +51,21 @@ body{
     display: flex;
     flex-direction: column;
     padding: 0 128px;
-}
-
-.link1{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    color: #FFFFFF;
-
+    position: relative;
 }
 
 .imgTeaser{
     position: absolute;
     width: 600px;
-    height: 388px;
-    left: 29px;
+    height: 380px;
+    left: 60px;
     top: 457px;
-}
-
-.trailer2{
-    display: flex;
-}
-
-.link2{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 29px;
-    color: #FFFFFF;
 }
 
 .img2{
     position: absolute;
-    width: 632.71px;
-    height: 360.3px;
+    width: 600px;
+    height: 380px;
     left: 130vh;
     top: 457px;
 }
