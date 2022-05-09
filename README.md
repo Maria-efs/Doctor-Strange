@@ -2,8 +2,7 @@
 Projeto construído durante as aulas de LIMA, no curso de desenvolvimento de sistemas do [SENAI Jandira](https://jandira.sp.senai.br/), com orientação do Prof. [Fernando Leonid](https://github.com/fernandoleonid)
 
 <img src="./Img/WEB.png">
-<img src="./Img/MOBILE.png" width=200px> 
-<img src="./Img/Android Small - 1.png" width=200px>
+<img src="./Img/MOBILE.png" width=200px> <img src="./Img/Android Small - 1.png" width=200px>
 
 ---
 ## Qual era o objetivo do projeto?
