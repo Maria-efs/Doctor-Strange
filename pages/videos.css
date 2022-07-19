@@ -40,6 +40,11 @@ header{
     color: red;
 }
 
+html{
+    width: 100%;
+    height: 100%;
+}
+
 body{
     height: 100vh;
     background:linear-gradient(90deg, #000, #000E 18%, #000A 30%, #0000),
@@ -54,18 +59,22 @@ body{
     position: relative;
 }
 
+.imagens{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 15%;
+}
+
 .imgTeaser{
-    position: absolute;
-    width: 600px;
-    height: 380px;
-    left: 60px;
-    top: 457px;
+    width: 6.0rem;
+    max-width: 600px;
+    height: 3.8rem;
+    left: 6.0rem;
 }
 
 .img2{
-    position: absolute;
-    width: 600px;
-    height: 380px;
+    max-width: 600px;
+    height: 3.8px;
     left: 130vh;
-    top: 457px;
 }

@@ -19,7 +19,8 @@ ul, ol{
 
 body{
     height: 100vh;
-    background: url(../Img/fundodoctor.jpg);
+    width: 100vw;
+    background: url(../Img/background.png);
     background-blend-mode: darken;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,15 +59,24 @@ main{
     font-family: 'Mulish', sans-serif;
 }
 
-.doctor1{
-    position: absolute;
-    width: 516px;
-    height: 68px;
-    left: 126px;
-    top: 215px;
-    font-size: 70px;
+.personagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.imgDoctor,
+.imgWanda,
+.imgWong {
+    width: 20vw;
+    height: 70vh;
+    border-radius: 2rem;
+}
+
+h3{
     color: #fff;
-    font-style: italic;
-    font-weight: 200;
-    box-shadow: 3px 3px black, -1em 0 0.4em black;
+    font-size: 1em;
 }
