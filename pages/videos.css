@@ -80,6 +80,11 @@ body{
 }
 
 @media (max-width: 768px){
+    body, html{
+        position: relative;
+        overflow-x: hidden;
+    }
+
     header{
         height: 70px;
     }
@@ -103,5 +108,17 @@ body{
     }
     .menu-burger-container.show ~ .links-container{
         transform: translate(0);
+    }
+
+    .imagens{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img1,
+    .img2 {
+        height: 40vh;
+        width: 80vw;
     }
 }

@@ -108,6 +108,11 @@ header{
 }
 
 @media (max-width: 768px){
+    body, html{
+        position: relative;
+        overflow-x: hidden;
+    }
+
     header{
         height: 70px;
     }
