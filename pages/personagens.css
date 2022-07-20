@@ -80,3 +80,40 @@ h3{
     color: #fff;
     font-size: 1em;
 }
+
+@media (max-width: 768px){
+    header{
+        height: 70px;
+    }
+    .links-container{
+        background-color: #000;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        font-size: 2.5rem;
+        font-weight: 300;
+        gap: 65px;
+        transition: all 1s;
+        transform: translate(100%);
+        transition: all 1s;
+
+    }
+    .menu-burger-container.show ~ .links-container{
+        transform: translate(0);
+    }
+    .personagens{
+        gap: 20px;
+    }
+    .imgDoctor,
+    .imgWanda,
+    .imgWong {
+        width: 24vw;
+        height: 70vh;
+        border-radius: 50%;
+    }
+}

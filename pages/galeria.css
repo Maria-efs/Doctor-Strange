@@ -16,9 +16,9 @@ html {
     height: 100vh;
     width: 100vw;
 }
+
 body{
     background: url(../Img/imagem-de-fundo.png);
-    position: absolute;
     width: 100vw;
     max-width: 100px;
     height: 100vh;
@@ -31,28 +31,35 @@ body{
 }
 
 header{
+    /*background-color: aqua;*/
     height: 120px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 0 128px;
 }
 .links-container{
     height: 36px;
+    /*background-color: grey;*/
     display: flex;
     align-items: center;
     gap: 40px;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 1.1rem;
+    margin-left: 30rem;
 }
 .links-container a{
-    text-shadow: 4px 4px 4px #000;
+    text-shadow: 4px 4px 4px red;
     padding: 8px 5px;
     transition: all 1s;
 }
 .links-container a:hover{
-    color: red;
+    /*color: lightslategrey;*/
+    color: var(--accent-color);
+}
+
+.logo{
+    margin-left: 5rem;
 }
 
 .imagens{
@@ -60,6 +67,7 @@ header{
     position: relative;
     justify-content: flex-end;
     margin-left: 60rem;
+    gap: 20px;
     justify-content: space-evenly;
 }
 
@@ -97,4 +105,31 @@ header{
 .img4{
     height: 15rem;
     width: 20rem;
+}
+
+@media (max-width: 768px){
+    header{
+        height: 70px;
+    }
+    .links-container{
+        background-color: #000;
+        position: absolute;
+        right: 0;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        font-size: 2.5rem;
+        font-weight: 300;
+        gap: 65px;
+        transition: all 1s;
+        transform: translate(100%);
+        transition: all 1s;
+
+    }
+    .menu-burger-container.show ~ .links-container{
+        transform: translate(0);
+    }
 }
