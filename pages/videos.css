@@ -66,19 +66,6 @@ body{
     margin-top: 15%;
 }
 
-.imgTeaser{
-    width: 6.0rem;
-    max-width: 600px;
-    height: 3.8rem;
-    left: 6.0rem;
-}
-
-.img2{
-    max-width: 600px;
-    height: 3.8px;
-    left: 130vh;
-}
-
 @media (max-width: 768px){
     body, html{
         position: relative;
@@ -87,7 +74,11 @@ body{
 
     header{
         height: 70px;
-    }
+        width: 100px;
+        justify-content: center;
+        align-items: flex-end;
+    }  
+
     .links-container{
         background-color: #000;
         position: absolute;
